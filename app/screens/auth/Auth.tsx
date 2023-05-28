@@ -12,7 +12,6 @@ const Auth = () => {
 	})
 
 	const onSubmit: SubmitHandler<IAuthFormData> = data => {
-		console.log(data)
 		Alert.alert(JSON.stringify(data))
 		reset()
 	}
